@@ -7,8 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
 
-import de.bezier.data.XlsReader;
+
 
 public class CITC {
 	public static WebDriver driver;
@@ -22,7 +23,13 @@ public class CITC {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("file:///D:/jbk/JBK%20Offline/index.html");
 		return driver;
-	}}
+	}
+
+ @Test
+public void me()
+{System.out.println("me");
+}
+}
 	
 	/*public void Contact()
 	{
