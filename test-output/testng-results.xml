@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70" started-at="2019-02-25T12:38:09Z" finished-at="2019-02-25T12:38:09Z">
+    <groups>
+      <group name="Regression">
+        <method signature="testes.Verify_Title()[pri:2, instance:jbkoffline.com.testes@56dfcb]" name="Verify_Title" class="jbkoffline.com.testes"/>
+        <method signature="testes.Verify_URL()[pri:1, instance:jbkoffline.com.testes@56dfcb]" name="Verify_URL" class="jbkoffline.com.testes"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="70" started-at="2019-02-25T12:38:09Z" finished-at="2019-02-25T12:38:09Z">
+      <class name="jbkoffline.com.testes">
+        <test-method status="PASS" signature="Setup_Browser()[pri:0, instance:jbkoffline.com.testes@56dfcb]" name="Setup_Browser" is-config="true" duration-ms="19876" started-at="2019-02-25T18:07:49Z" finished-at="2019-02-25T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup_Browser -->
+        <test-method status="PASS" signature="Verify_URL()[pri:1, instance:jbkoffline.com.testes@56dfcb]" name="Verify_URL" duration-ms="29" started-at="2019-02-25T18:08:09Z" description="To cheack project URL is correct:" finished-at="2019-02-25T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_URL -->
+        <test-method status="PASS" signature="Verify_Title()[pri:2, instance:jbkoffline.com.testes@56dfcb]" name="Verify_Title" duration-ms="21" started-at="2019-02-25T18:08:09Z" description="To Verify application Title" finished-at="2019-02-25T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Title -->
+        <test-method status="PASS" signature="close_Browser()[pri:0, instance:jbkoffline.com.testes@56dfcb]" name="close_Browser" is-config="true" duration-ms="17" started-at="2019-02-25T18:08:09Z" finished-at="2019-02-25T18:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- jbkoffline.com.testes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
